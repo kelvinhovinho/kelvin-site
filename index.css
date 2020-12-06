@@ -17,12 +17,13 @@ header img{
     margin-top: 10px;
 }
 .name{
-    color:rgb(58, 50, 50);
+    color:rgb(12, 12, 12);
     padding-top: 200px;
     text-align: center;
+    font-weight: 950;
 }
 .name h2{
-    font-size: 150px;
+    font-size: 70px;
     text-transform: uppercase;
 }
 .name:hover{
@@ -49,6 +50,9 @@ nav a{
     color: white;
 
 }
+nav a:hover{
+    color: rgb(250, 112, 112);
+}
 .about{
     background-color: #e1f4f3;
 }
@@ -74,6 +78,20 @@ P, h2, h4{
 span ol li{
     padding-bottom: 10px;
     font-size: 18px;
+}
+.project img{
+    height: 500px;
+    width: 700px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 2px grey;
+}
+.pets{
+    margin-top: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    
 }
 .footer{
    background-color: #706c61;
