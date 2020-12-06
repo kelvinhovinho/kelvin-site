@@ -1,23 +1,44 @@
 *{
-    padding: 0%;
+    padding: 0;
     margin: 0%;
 }
-header{
-    background-color:white; 
+header{ 
+    background-color:black;
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 101vh;
     width: 100%;
     margin-top: -7px;
+    z-index: 1px;
 }
 header img{
-    padding-top: 10px;
     float: left;
-    height: 100%;
-}
-.nav{
+    /* width: 50%; */
+    height:98vh;
+    /* margin-left:-170px; */
+    margin-top: 10px;
     background-color: black;
-    height: 10vh;
+}
+.wraper{
+    background-color: red;
+    padding:10px;
     width: 100%;
+    position: fixed;
+}
+.text{
+    padding-top: 8px;   
+}
+nav{
+    float: right;
+    padding-right: 50px; 
+}
+nav a{
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+}
+P, h2{
+    font-size: 20px;
+    padding: 10px;
 }
