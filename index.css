@@ -3,35 +3,35 @@
     margin: 0%;
 }
 header{ 
-    /* background-color:black; */
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     height: 101vh;
     width: 100%;
     margin-top: -7px;
-    /* z-index: 1px; */
 }
 header img{
     float: left;
-    /* width: 50%; */
     height:98vh;
     margin-left:-120px;
     margin-top: 10px;
-    /* background-color: black; */
 }
 .name{
-    color:black;
-    padding-top: 300px;
+    color:rgb(58, 50, 50);
+    padding-top: 200px;
     text-align: center;
 }
 .name h2{
-    font-size: 50px;
+    font-size: 150px;
     text-transform: uppercase;
 }
+.name:hover{
+    color: black;
+    text-shadow: 2px 2px greenyellow;   
+}
 .wraper{
-    background-color: red;
-    padding:10px;
+    background-color:rgb(46, 44, 44);
+    padding:30px;
     width: 100%;
     position: fixed;
 }
@@ -46,6 +46,8 @@ nav a{
     text-transform: uppercase;
     padding: 10px;
     text-decoration: none;
+    color: white;
+
 }
 .about{
     background-color: #e1f4f3;
