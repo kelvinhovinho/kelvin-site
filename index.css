@@ -64,3 +64,16 @@ span ol li{
     padding-bottom: 10px;
     font-size: 18px;
 }
+.footer{
+   background-color: #706c61;
+   height: 70px;
+   width: 100%;
+}
+.footer p{
+    font-size: 15px;
+}
+.down p{
+    text-align: center;
+    font-size: 15px;
+    padding-top:0px;
+}
