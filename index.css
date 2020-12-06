@@ -3,14 +3,14 @@
     margin: 0%;
 }
 header{ 
-    background-color:black;
+    /* background-color:black; */
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     height: 101vh;
     width: 100%;
     margin-top: -7px;
-    z-index: 1px;
+    /* z-index: 1px; */
 }
 header img{
     float: left;
@@ -18,7 +18,16 @@ header img{
     height:98vh;
     margin-left:-120px;
     margin-top: 10px;
-    background-color: black;
+    /* background-color: black; */
+}
+.name{
+    color:black;
+    padding-top: 300px;
+    text-align: center;
+}
+.name h2{
+    font-size: 50px;
+    text-transform: uppercase;
 }
 .wraper{
     background-color: red;
