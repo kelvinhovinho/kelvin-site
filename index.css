@@ -38,6 +38,9 @@ nav a{
     padding: 10px;
     text-decoration: none;
 }
+.about{
+    background-color: #e1f4f3;
+}
 P, h2, h4{
     font-size: 20px;
     padding: 10px;
