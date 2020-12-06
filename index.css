@@ -45,3 +45,9 @@ P, h2, h4{
     font-size: 20px;
     padding: 10px;
 }
+span p{
+    padding-top: 0%;
+}
+span h4{
+    padding-bottom: 1px;
+}
