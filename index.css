@@ -57,6 +57,8 @@ P, h2, h4{
 }
 .card h2{
     text-transform: uppercase;
+    text-decoration: underline;
+
 }
 span ol li{
     padding-bottom: 10px;
