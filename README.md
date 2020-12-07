@@ -1,5 +1,4 @@
 # KELVIN'S SITE
-#### This is a simple project about me 
 #### By KELVIN ADAMBA
 ## Description
 This project contains information about me. my accademics and why i joined programming school.
